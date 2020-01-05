@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div#myCarousel{
+	padding: 0px;
+	margin-top: 82px;
+}
+div.carousel-inner{
+	padding: 0px;
+}
+div.item active{
+	padding: 0px;
+}
+div.item{
+	padding:0px;
+}

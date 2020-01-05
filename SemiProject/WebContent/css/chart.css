@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/*차트 영역*/
+
+./* chartOfGender#chartOfGenderF{
+	position : relative;
+	left: 25em;
+	top: 1em; 
+	width : 25em;
+	height : 15em;
+}
+.chartOfGender#chartOfGenderM{
+	position : relative;
+	top: 3em; 
+	left:25em;
+	width : 25em;
+	height : 15em;
+	
+} */
+/* div#femaleChart{
+	position : absolute;
+	
+}
+div#maleChart{
+	positon : relative;
+	
+}  */ 
+
+.selectChart #ageSelect input[type="button"]{
+    display: block;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    line-height: 40px;
+    width: 1em;
+    height: 1em;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    border: 1px solid #346aff;
+}
+div#chartOfAge{
+	display:none;
+	position :relative;
+	width : 35em;
+	height : 32em;
+	left : 20em;
+	top:-29.5em;
+}
+div#chartOfGrade{
+	display:none;
+	position :relative;
+	width : 35em;
+	height : 32em;
+	left : 15em;
+	top:-25.5em;
+}
+div#chartOfGenderF,div#chartOfGenderM{
+	width : 30em;
+	height: 25em;
+	position :relative;
+	left : 20em;
+	top:-29.5em;
+	display:none;
+}
+div#chartOfAge canvas#chart-age{
+	position : relative;
+	top: -5em;
+}
+div#chartOfRegion{
+	display : none;
+	border-radius : 1em;
+	position : relative;
+	left :10em;
+	top : 5em;
+	width:600px; 
+	height:400px;
+	
+}
+
+
+/*카테고리 영역*/
+
+/*하위카테고리의 하위 카테고리*/
+/*  .selectChart .selectDetail input[type="radio"]{
+	display : none;
+}
+.selectChart .selectDetail input[type="radio"] +label,.selectDetail input[type="checkbox"] +label{
+	display:inline-block;
+	cursor:pointer;
+	position:relative;
+	padding:0 0 0 0.1em;
+	margin: 0em;
+	
+}
+
+.selectChart .selectDetail input[type="radio"] +label:before, .selectDetail input[type="checkbox"] +label:before{
+	content:"";
+	background:#fff;
+	border:0.1em solid #00ff40;
+	width:0.5em;
+	height:0.5em;
+	border-radius: 50%;
+	position:absolute;
+	left:-0.75em;
+	top:0.8em;
+	transition:.2s;
+	
+}
+.selectChart .selectDetail input[type="radio"] +label:active:before, .selectDetail input[type="checkbox"] +label:active:before{
+	transform:sacle(0);
+}
+.selectChart .selectDetail input[type="radio"] +label:after,.selectDetail input[type="checkbox"] +label:after{
+	content:'';
+	background:#00ff40;
+	width:0.23em;
+	height:0.23em;
+	border-radius:50%;
+	position:absolute;
+	left:-0.6em;
+	top:0.93em;
+	opacity:0;
+}
+.selectChart .selectDetail input[type="radio"]:checked +label:after,.selectDetail input[type="checkbox"]:checked +label:after{
+	opacity:1;	
+}
+
+하위 카테고리중 상위 카테고리
+.selectChart input[type="radio"],.selectChart input[type="checkbox"]{
+	display : none;
+}
+.selectChart input[type="radio"] +label,.selectChart input[type="checkbox"] +label{
+	display:inline-block;
+	cursor:pointer;
+	position:relative;
+	padding:0 0 0 0.2em;
+	margin: 0.2em;
+	
+}
+
+.selectChart input[type="radio"] +label:before, .selectChart input[type="checkbox"] +label:before{
+	content:"";
+	background:#fff;
+	border:0.1em solid #00ff40;
+	width:0.8em;
+	height:0.8em;
+	border-radius: 50%;
+	position:absolute;
+	left:-0.75em;
+	top:0.8em;
+	transition:.2s;
+	
+}
+.selectChart input[type="radio"] +label:active:before, .selectChart input[type="checkbox"] +label:active:before{
+	transform:sacle(0);
+}
+.selectChart input[type="radio"] +label:after,.selectChart input[type="checkbox"] +label:after{
+	content:'';
+	background:#00ff40;
+	width:0.4em;
+	height:0.4em;
+	border-radius:50%;
+	position:absolute;
+	left:-0.55em;
+	top:1em;
+	opacity:0;
+}
+.selectChart input[type="radio"]:checked +label:after,.selectChart input[type="checkbox"]:checked +label:after{
+	opacity:1;	
+} */
+div#chart{
+	position : relative;
+	left : 20em;
+	width : 30em;
+	height : 15em;
+	padding : 1em;
+	margin : 0.5em;
+}
+div#genderSelect{
+	display:none;
+	width : 7em;
+	height: 3em;
+	padding : 0;
+}
+
+ nav#high-rank-category{
+    padding-top: 36px;
+    width: 16em;
+    height: 36em;
+    /* float: left; */
+    text-align: center;
+    
+    line-height: 2.5;
+} 
+div.selectChart{
+	padding: 0;
+	width : 17em;
+	height : 30em;
+}
+/*나이 체크박스 디자인*/
+.form-group input[type="checkbox"],.form-group input[type="radio"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span ,.form-group input[type="radio"] .btn-group > label span{
+    width: 1em;
+    height : 1.3em;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child,.form-group input[type="radio"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child,.form-group input[type="radio"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child,form-group input[type="radio"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child,.form-group input[type="radio"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+
+.dlk-radio input[type="radio"]
+{
+	display:none;
+}
+.dlk-radio input[type="radio"] + .fa 
+{
+     opacity:0.15
+}
+.dlk-radio input[type="radio"]:checked + .fa
+{
+    opacity:1
+}

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+section#memberList-container{
+	text-align: center;
+}
+
+section#memberList-container table#tbl-member {
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+table#tbl-member th, table#tbl-member td {
+    border: 1px solid gray;
+	padding: 10px;
+    text-align: center;
+}
+
+/*검색*/
+div#search-container {
+	margin: 0 0 10px 0;
+	padding: 3px;
+	background-color: gray;
+}
+div#search-memberId {
+	display: inline-block;
+}
+div#search-memberName, div#search-gender, div#search-grade{
+	display: none;
+}
+
+/*페이지바*/
+div#pageBar{
+	margin-top: 10px;
+	text-align: center;
+    /* background-color: rgba(0,188,212,0.3); */
+    background-color: gray;
+}
+div#pageBar span.cPage{
+	color: white;
+	margin-right: 10px;
+}
+
+div#pageBar a{
+    margin-right: 10px;
+    color: white;
+}
+
+
+/* 전 체  적 인section틀*/
+section#memberList-container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+/*Admin 페 이 지*/
+
+#managementDo {
+    padding-top: 57px;
+    font-size: 30px;
+    text-align: center;
+}
+#managementStatus {
+    padding-top: 34px;
+    font-size: 30px;
+    text-align: center;
+}
+
+table#tbl-admin {
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+table#tbl-admin2 {
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+table#tbl-admin th, table#tbl-admin td {
+    border: 1px solid gray;
+	padding: 10px;
+    text-align: center;
+}
+table#tbl-admin2 th, table#tbl-admin2 td {
+    border: 1px solid gray;
+	padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
